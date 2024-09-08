@@ -1,2 +1,2 @@
-# Telegram-tracker-python3
+# Telegram-tracker
  Отслежвание онлайн статуса пользоваталей в телеграм. С помощью microsoft edge
