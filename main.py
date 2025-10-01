@@ -14,10 +14,8 @@ driver.get("https://web.telegram.org/")
 print('у вас есть 40 секунд войти в аккаунт')
 time.sleep(40)  # Время для входа в аккаунт вручную
 
-# Список пользователей для отслеживания
-users = ["ps852","ku6fu","Dartfart","Te_sel","nikitadacuk","dsamedovv"
-,"UsnSL","pes0chik","insearchofparadise","fuccb0i","ogserpico","zhas_ab","stylizedname","trnqdelniy","biyacuya"
-,"playmix_x","milionerkrutoi","Login0310","empty_insid","dsamedovv","nekitos16","RikaN06","GodSystem_1337","Ksmiha"]  # Замените на ники пользователей
+# Список пользователей для отслеживания формата user1,user2,use3,
+users = ["user1","user2","user3"]  # Замените на ники пользователей
 
 def check_status(user):
     # Поиск пользователя по нику
